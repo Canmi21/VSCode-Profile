@@ -1,0 +1,19 @@
+/* 全局字体设置为 Menlo */
+.monaco-editor {
+    font-family: 'Cartograph CF Light','Menlo', monospace !important;
+}
+
+/* 变量字体 */
+.token.variable {
+    font-family: 'Cartograph CF Light', monospace !important;
+}
+
+/* 注释字体 */
+.token.comment {
+    font-family: 'Cartograph CF Light', monospace !important;
+}
+
+.monaco-editor .monaco-hover .hover-contents {
+    font-family: 'Cartograph CF Light','Menlo', sans-serif !important;
+    font-size: 13px !important; /* 可以根据需要调整字体大小 */
+}
